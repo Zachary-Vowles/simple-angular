@@ -1,0 +1,38 @@
+{
+  "name": "sample",
+  "main": [
+    "/dist/scripts/sample.min.js",
+    "/dist/styles/sample.min.css"
+  ],
+  "version": "1.1.1-SNAPSHOT",
+  "description": "TODO",
+  "authors": [
+    "TODO"
+  ],
+  "ignore": [
+    "**/.*",
+    "package.json",
+    "gulpfile.js",
+    "node_modules",
+    "bower_components",
+    "src"
+  ],
+  "dependencies": {
+    "angular": "1.4.7",
+    "angular-bootstrap": "~0.14.2",
+    "bootstrap-sass-official": "~3.3.5",
+    "lodash": "~3.10.0",
+    "font-awesome": "~4.3.0",
+    "angular-ui-router": "~0.2.13",
+    "angular-cookies": "1.4.7",
+    "angular-messages": "~1.4.7"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.4.7"
+  },
+  "overrides": {
+    "bootstrap-sass-official": {
+      "dependencies": {}
+    }
+  }
+}

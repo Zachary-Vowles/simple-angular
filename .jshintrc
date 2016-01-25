@@ -1,0 +1,31 @@
+{
+  "browser": true,
+  "bitwise": true,
+  "curly": true,
+  "eqeqeq": true,
+  "esnext": true,
+  "globalstrict": true,
+  "immed": true,
+  "indent": 2,
+  "newcap": true,
+  "noarg": true,
+  "regexp": true,
+  "undef": true,
+  "unused": true,
+  "strict": true,
+  "sub": true,
+  "trailing": true,
+  "smarttabs": true,
+  "globals": {
+    "angular": false,
+    "console": false,
+    "it": false,
+    "describe": false,
+    "beforeEach": false,
+    "expect": false,
+    "_":false,
+    "module":false,
+    "inject":false,
+    "require":false
+  }
+}

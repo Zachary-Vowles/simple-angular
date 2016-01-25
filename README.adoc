@@ -1,0 +1,11 @@
+= Sample Angular project for Code Lounge
+
+Install node & npm, then.
+
+----
+npm install -g bower gulp-cli
+npm install
+bower install
+gulp serve
+----
+
