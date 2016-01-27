@@ -17,7 +17,22 @@
   <!-- endinject -->
   <!-- endbuild -->
 </head>
-<body ng-app="sampleApp">
+<body ng-app="sampleApp" ng-controller="simpleController">
+<h1 >Hello world {{myName}}
+  <input name="myName" ng-model="myName">
+</h1 >
+
+<button class="btn btn-primary" ng-click="addName()"> Add </button>
+<div>
+</div>
+<ul>
+  <li ng-repeat="name in names track by $index">
+    {{name}}
+
+  </li>
+</ul>
+
+
 
 
 
