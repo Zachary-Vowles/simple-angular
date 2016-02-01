@@ -8,8 +8,11 @@
   function SimpleController($scope) {
     $scope.myName="Zachary";
     $scope.addName= function() {
-      $scope.names.push ($scope.myName)
-      $scope.myName = "";
+       if  ($scope.myName.startsWith ("https://" )|| $scope.myName.startsWith ("http://" ) ) {
+
+         $scope.names.push ($scope.myName);
+          $scope.myName = "";
+      }
     };
     angular.extend($scope, {
       names: []

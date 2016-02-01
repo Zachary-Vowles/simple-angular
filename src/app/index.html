@@ -18,11 +18,14 @@
   <!-- endbuild -->
 </head>
 <body ng-app="sampleApp" ng-controller="simpleController">
+<form>
+
+
 <h1 >Hello world {{myName}}
   <input name="myName" ng-model="myName">
 </h1 >
 
-<button class="btn btn-primary" ng-click="addName()" > Add </button>
+<input class="btn btn-primary" ng-click="addName()" type="submit" >  </input>
 <div>
 </div>
 <ul>
@@ -31,7 +34,7 @@
     <img src="{{name}}">
   </li>
 </ul>
-
+</form>
 
 
 
