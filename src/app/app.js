@@ -1,22 +1,11 @@
 (function() {
   'use strict';
 
-  angular.module('sampleApp', [])
+  angular.module('sampleApp', ["ngCookies"])
     .controller('simpleController', SimpleController);
 
 
-  function SimpleController($scope) {
-    $scope.myName="Zachary";
-    $scope.addName= function() {
-       if  ($scope.myName.startsWith ("https://" )|| $scope.myName.startsWith ("http://" ) ) {
+  function SimpleController($scope, $cookies) {
 
-         $scope.names.push ($scope.myName);
-          $scope.myName = "";
-      }
-    };
-    angular.extend($scope, {
-      names: []
-    });
-  };
 
-}(angular));
+
